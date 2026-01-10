@@ -6,6 +6,11 @@ Procedure:
 - Interaction:
 	- Present the question and all answer choices exactly as written.
 	- IMPORTANT: Randomize the position of the correct answer. Do NOT place the correct answer in the same position (A, B, C, or D) for consecutive questions. Mix up which choice letter contains the correct answer throughout the quiz.
+	- CRITICAL: Ensure balanced distribution of correct answers across all positions. For a 30-40 question quiz, correct answers should be distributed roughly evenly:
+		- Each position (A, B, C, D) should contain approximately 25% of correct answers (±10%)
+		- Example: For 35 questions, aim for 8-9 correct answers in each position
+		- Avoid having more than 40% of correct answers in any single position
+		- Track the distribution as you generate questions to maintain balance
 	- Prompt me: "Your answer (letter or full answer):"
 	- Wait for my response before continuing.
 - Scoring:
